@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+
+	
+	html {
+		background-image: linear-gradient(180deg, white, darkorange);
+	}
+	
+	body {
+		margin: 0;
+		font-family: consolas;
+	}
+	
+	h1 {
+		font-family: arial;
+		font-size: 100px;
+		line-height: 0;
+		transform: rotateZ(5deg);
+	}
+	
+	@media (max-width: 545px) {
+	
+	h1 {
+		font-size: 60px;
+	}
+	}
+	
+	h2 {
+		font-size: 16px;
+		line-height: 0px;
+	
+	}
+	
+	header {
+		overflow: hidden;
+		position: sticky;
+		top: 0;
+		line-height: 0px;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		flex-direction: column;
+		padding: 0px 0px 30px 0px;
+	}
+	
+	footer {
+		overflow: visible;
+		top: 0;
+		line-height: 0px;
+		padding: 1000px 0px 10px 0px;
+	}
+	
+	nav.menu , a.nav-button {
+		text-decoration: none;
+		font-size: 16px;
+		font-weight: bold;
+		margin: 20px 10px 0px 10px;
+		padding: 10px;
+		justify-content: center;
+		border-radius: 50px;
+		transition: .5s;
+	}
+	
+	
+	a.nav-button {
+		border: solid 8px black;
+		background-color: black;
+		color: white;
+		width: 90px;
+		height: 0px;
+		transition: .5s;
+	}
+	
+	a.nav-button:hover {
+		border: solid 8px black;
+		background-color: white;
+		color: black;
+		transition: .5s;
+		transition: .25s;
+	}
+	
+	nav.menu {
+		margin: 30px 200px 50px 200px;
+		display: inline-grid;
+  		grid-template-columns: max-content auto max-content auto max-content auto max-content;
+	}
+	
+	.nav-home {
+		max-width: 80px;
+		max-height: 80px;
+		width: auto;
+		height: auto;
+		padding: 0px 25px 0px 25px;
+		transition: .5s;
+	}
+	
+	
+	.nav-home:hover {
+		transform: rotate(360deg);
+		filter: invert(100%);
+		transition: .5s;
+	}
+	
+	@media (max-width: 1150px) {
+	
+	nav.menu {
+		margin: 10px 400px 50px 400px;
+		grid-template-rows: auto;
+  		grid-template-columns: max-content;
+	}
+		
+	}
+	
+	@media (max-width: 1050px) {
+	
+	nav.menu {
+		margin: 10px 350px 50px 350px;
+		grid-template-rows: auto;
+  		grid-template-columns: max-content;
+	}
+		
+	}
+	
+	@media (max-width: 950px) {
+	
+	nav.menu {
+		margin: 10px 300px 50px 300px;
+		grid-template-rows: auto;
+  		grid-template-columns: max-content;
+	}
+		
+	}
+	
+	@media (max-width: 545px) {
+	
+	nav.menu {
+		margin: 10px 120px 50px 120px;	
+	}
+		
+	}
+	
+	@media (max-width: 400px) {
+	
+	nav.menu {
+		margin: 10px 60px 50px 60px;	
+	}
+		
+	}
+	
+	p.header-title {
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+		transform: rotateZ(5deg);
+		margin: -5px;
+		font-size: 20px;
+	}
+	
+	div.homepage {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-top: 40px;
+	}
+	
+	div.equipment {
+		display: block;
+		flex-direction: column;
+		justify-content: center;
+		opacity: 95%;
+		width: 300px;
+		transition: .5s;
+		margin: 0px auto 100px auto;
+	}
+	
+	div.equipment:hover {
+		transform: scale(1.05);
+		filter: drop-shadow(0 0 10px orange);
+		transition: .25s;
+	}
+	
+	div.equipment-name {
+		color: white;
+		background-color: black;
+		display: flex;
+		justify-content: center;
+		margin: 0px;
+	}
+	
+	div.equipment-gif {
+		display: flex;
+		justify-content: center;
+		border-left: solid 8px black;
+		border-right: solid 8px black;
+		border-bottom: solid 8px black;
+		background-color: white;	
+	}
+	
+	.ball-gif {
+		max-width: 200px;
+		max-height: 200px;
+		width: auto;
+		height: auto;
+		padding-top: 5px;
+	}
+	
+	a.thumbnail-link {
+		text-decoration: none;
+	}
+	
+	footer {
+		margin: 20px;
+	}
+	
+	p.footer-copy {
+		font-size: 10px;
+		text-align: center;
+		text-decoration: underline;
+	}
+	
+	
+</style>
